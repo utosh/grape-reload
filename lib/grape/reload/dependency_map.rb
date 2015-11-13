@@ -1,4 +1,5 @@
 require_relative '../../ripper/extract_constants'
+require 'tsort'
 
 module Grape
   module Reload
